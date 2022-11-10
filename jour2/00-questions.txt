@@ -1,0 +1,21 @@
+Le système de grille de Bootstrap :
+
+https://getbootstrap.com/docs/5.2/layout/breakpoints/
+
+.container => balise qui contient le design  
+    .row  => ligne de design / zone de design (en tête)
+        .col
+        .col
+        .col  100% / 4
+        .col  100% / 4
+    .row 
+        .col-2 => 20% quelque soit la fenêtre du navigateur 
+        .col-10 => 80%
+        une ligne de design contient 12 colonnes => ligne 
+    .row 
+        .col-sm-2 => à partir d'un écran ayant la largeur 576px => 20%
+                     sous les 576px => 100%
+        .col-sm-10=> à partir d'un écran ayant la largeur 576px => 80%
+                     sous les 576px => 100%
+
+        responsive design => si écran trop étroit => je dois mettre les éléments les uns en dessous des autres et non l'un à côté de l'autre 
