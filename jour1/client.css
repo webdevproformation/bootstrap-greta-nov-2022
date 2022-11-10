@@ -1,0 +1,7 @@
+
+
+
+.bg-danger {
+    /* surcharge de règle css => override */
+    background-color: pink !important;
+}

@@ -1,0 +1,47 @@
+Malik HARRIZ
+malik.h@webdevpro.net
+anaismarissal1998@gmail.com
+
+=> Bootstrap 
+
+
+=> support de cours qui est disponible à l'adresse suivante :
+
+url : https://formation.webdevpro.net/bootstrap
+login :  bootstrap
+password :  bootstrap
+
+
+=> toutes les notes de cours vont être partagées sur une github 
+=> url dans peu de temps 
+
+
+=> HTML et CSS (sans flex box / display grid)
+
+=> Bootstrap ( librairie => fichier qui contient un grand nombre de fonctions
+pouvoir rapidement et facilement créer des design de site internet 
+
+css // mais aussi javascript 
+
+=> le site officiel => documentation officielle 
+
+https://getbootstrap.com/
+
+=> vous allez être formé sur le version 5.2 de la librairie 
+
+=> attention il y a des différences avec les versions précédent notamment la version 4 
+
+=> css => mise en forme 
+
+=> texte => couleur / taille / style 
+
+=> image => taille / bordure / forme 
+
+=> mise en page => comment agencer les zones DANS la page (grid système)
+
+=> animation (utiliser une autre librairie )
+
+=> espacement  
+
+=> plein d'autres sujets .... composant barre de menu responsive ....  
+
