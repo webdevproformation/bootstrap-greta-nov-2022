@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- 08-utilitaire-suite-suite.html -->
+    <style>
+       /*  p{
+            display: none;
+        } */
+
+    </style>
+</head>
+<body>
+    <!--
+        m => margin
+        p => padding
+        w => width 
+        d => display : none / block / inline / flex / grid
+    -->
+    <div class="container">
+        <h1 class="d-none">Lorem ipsum dolor sit amet.</h1>
+        <p class="d-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fugit?</p>
+        <!-- afficher une élément à partir d'une largeur-->
+        <h2 class="d-none d-md-block">Lorem ipsum dolor sit amet.</h2>
+        <!--
+            h2 soit affiché pour une taille > 768px (md)
+            mais taille inférieure à 768px => masqué
+        -->
+        <!-- permet de mettre des balises en block
+        l'un à côté de l'autre -->
+        <h3 class="d-inline">bonjour</h3>
+        <h3 class="d-inline">comment allez vous?</h3>
+
+        <!-- permet de mettre des balises enfant l'une à côté de 
+        l'autre
+        ET de gérer plus facilement l'espacement entre ces éléments
+        -->
+        <article>
+            <header class="d-flex justify-content-between align-items-baseline">
+                <h2>article</h2>
+                <p class="mb-0">10/11/2022</p>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat et, porro aliquid minima accusantium doloremque laudantium. Sunt minima reprehenderit blanditiis adipisci. Eaque doloremque, exercitationem autem porro a adipisci eos!</p>
+            <footer>
+                <a href="#">lire la suite</a>
+            </footer>
+        </article>
+    </div>
+</body>
+</html>
