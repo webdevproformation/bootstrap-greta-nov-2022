@@ -19,3 +19,9 @@ https://getbootstrap.com/docs/5.2/layout/breakpoints/
                      sous les 576px => 100%
 
         responsive design => si écran trop étroit => je dois mettre les éléments les uns en dessous des autres et non l'un à côté de l'autre 
+
+    .row 
+        .col-lg-4 .col-sm-6  >0px 100% - >576px 50% - > 992px 40%    infini
+        .col-lg-4 .col-sm-6
+
+        il est possible de cumuler plusieurs règles de grille css 
