@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Diaporama avec Bootstrap</h1>
+        <!-- https://getbootstrap.com/docs/5.2/components/carousel/ -->
+        <div class="carousel slide" data-bs-ride="carousel" id="toto">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/random/500x300" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/random/500x301" alt="">
+                </div>
+            </div>
+            <!-- carousel indicators => position dans la carousel-->
+            <!-- carousel bouton => passer au suivant / précédent-->
+        </div>
+
+    </div>     
+    <script>
+        const myCarouselElement = document.querySelector('#toto')
+        new bootstrap.Carousel(myCarouselElement, {
+            interval: 500
+        })
+    </script>   
+</body>
+</html>
