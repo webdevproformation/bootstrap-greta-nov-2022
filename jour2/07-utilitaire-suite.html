@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion des largeurs avec Bootstrap</h1>
+        <section class="row">
+            <div class="col bg-success px-0">
+                <button class="w-75">texte</button>
+                <!-- width : 100% 
+                    prend 100% de la largeur de ton parent
+                    la hauteur des élément d'une row
+                    dépend de la hauteur de l'élément qui a 
+                    la hauteur la plus importante 
+                -->
+            </div>
+            <!--
+                w-100
+                w-75
+                w-50
+                w-25
+            -->
+            <div class="col">
+                <img src="https://source.unsplash.com/random/200x500" alt="">
+            </div>
+            <div class="col"></div>
+        </section>
+    </div>
+</body>
+</html>
